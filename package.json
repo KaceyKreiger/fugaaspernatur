@@ -1,0 +1,50 @@
+{
+  "name": "fugaaspernatur",
+  "version": "1.0.0",
+  "description": "Principal Components Analysis in javascript",
+  "main": "pca.js",
+  "devDependencies": {
+    "fancy-log": "^1.3.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-minifier": "^1.2.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-watch": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KaceyKreiger/fugaaspernatur.git"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "temp/*",
+      "download/*",
+      ".git",
+      "node_modules/**/node_modules"
+    ],
+    "delay": "2500"
+  },
+  "author": "EliseoDooley",
+  "license": "MIT",
+  "homepage": "https://github.com/KaceyKreiger/fugaaspernatur.git",
+  "keywords": [
+    "omnis",
+    "components",
+    "omnis",
+    "aut",
+    "qui",
+    "nemo",
+    "ml",
+    "data",
+    "dimensionality"
+  ],
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/KaceyKreiger/fugaaspernatur.git/issues"
+  }
+}
